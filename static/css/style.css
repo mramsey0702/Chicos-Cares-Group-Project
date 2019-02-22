@@ -1,0 +1,212 @@
+* { font-size: 10px; }
+body { margin: 1rem; }
+.navbar.navbar-brands {
+    margin: 0 auto;
+    max-width: 40rem;
+    text-align: center;
+    width: 90%;
+}
+.fascares-logo { margin: 0 auto; width: 100%; }
+ul.nav.navbar-nav { margin: 1rem auto; padding: 0; }
+.navlogo { display: inline-block; }
+li.navlogo.chicos {
+    padding: 0 2% 0 0;
+    width: 15%;
+}
+li.navlogo.whbm {
+    padding: 0 2%;
+    width: 65%;
+}
+li.navlogo.soma {
+    padding: 0 0 0 2%;
+    width: 10%;
+}
+[role="button"] { cursor: pointer; }
+.navlogo a:hover { opacity: .5; }
+.navlogo img { width: 100%; }
+
+section {
+    margin: 0rem auto 1rem;
+    max-width: 980px;
+    padding: 0rem 3rem;
+}
+h1 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+}
+.text-center { text-align: center; }
+p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 0em;
+    line-height: 1.1;
+    padding-bottom: 1.4rem;
+    text-align: justify;
+}
+p.indent { padding: 0 2rem 1.4rem 2rem; }
+.row {
+    display: block;
+    overflow: hidden;
+}
+.col-sm-6 {
+    float: left;
+    margin: 1rem 1rem;
+}
+span.btn-default-label {
+    font-size: 1.5rem;
+    margin: 5px 20px 5px 20px;
+}
+.lbbc_box {
+    border-top: 2px solid #8f1d59;
+    border-left: 2px solid #8f1d59;
+    border-right: 2px solid #8f1d59;
+}
+.lbbc_logo {
+    padding: 3rem;
+    text-align: center;
+}
+.lbbc_logo img {
+    margin: 14% auto;
+    width: 90%;
+}
+.lbbc_text { background-color: #f4a71c; height: auto; padding: 2rem 3rem; text-align: center; }
+.lbbc_text p { color: white; }
+.lbbc_button {
+    background-color: #f4a71c;
+    padding: 1rem 0 2rem;
+    text-align: center;
+}
+.lbbc_button .btn-default {
+    background-color: #8f1d59;
+    border: none;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.lbbc_button .btn-default:hover {
+  background-color: #000;
+  color: #fff;
+}
+.lbbc_pics { background-color: #8f1d59; }
+.lbbc_pics img { width: 100%; }
+
+.habitat_box {
+    border-top: 2px solid #C4D600;
+    border-left: 2px solid #C4D600;
+    border-right: 2px solid #C4D600;
+}
+.habitat_logo {
+    background-color: #00AFD7;
+    padding: 3rem;
+    text-align: center;
+}
+.habitat_logo img {
+    margin: 0 auto;
+    width: 75%;
+}
+.habitat_text { height: auto; padding: 2rem 3rem; text-align: center; }
+.habitat_button {
+    padding: 1rem 0 2rem;
+    text-align: center;
+}
+.habitat_button .btn-default {
+    background-color: #C4D600;
+    border: none;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.habitat_button .btn-default:hover {
+  background-color: #00AFD7;
+  color: #000;
+}
+.habitat_pics { background-color: #C4D600; }
+.habitat_pics img { width: 100%; }
+
+@media screen and (min-width:768px){
+    .row { display: flex; }
+    .col-sm-6 {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem .5rem;
+        width: 50%;
+    }
+    .lbbc_text, .habitat_text { flex-grow: 1; }
+    p.indent { padding: 0 12rem 1.4rem 12rem; }
+    .lbbc_logo { max-height: 37rem; }
+}
+
+@media screen and (min-width:992px){
+    .lbbc_logo img {
+        margin: 11% auto;
+        max-width: 340px;
+    }
+    .habitat_logo img { max-width: 270px; }
+}
+
+/*
+#   /$$$$$$$$  /$$$$$$   /$$$$$$  /$$$$$$$$ /$$$$$$$$ /$$$$$$$ 
+#  | $$_____/ /$$__  $$ /$$__  $$|__  $$__/| $$_____/| $$__  $$
+#  | $$      | $$  \ $$| $$  \ $$   | $$   | $$      | $$  \ $$
+#  | $$$$$   | $$  | $$| $$  | $$   | $$   | $$$$$   | $$$$$$$/
+#  | $$__/   | $$  | $$| $$  | $$   | $$   | $$__/   | $$__  $$
+#  | $$      | $$  | $$| $$  | $$   | $$   | $$      | $$  \ $$
+#  | $$      |  $$$$$$/|  $$$$$$/   | $$   | $$$$$$$$| $$  | $$
+#  |__/       \______/  \______/    |__/   |________/|__/  |__/
+#                                                              
+#                                                              
+#    */
+.footer-panel {
+  height: 90px;
+  padding: 8px 10px 10px 10px;
+  background-color: #8f1d59;
+  color: white;
+  text-align: center;
+}
+.footer-copyright, .mobile-footer-copyright {
+	padding: 8px 10px 10px 10px;
+	background: #000;
+}
+.mobile-footer-copyright { display:none; }
+@media screen and (max-width: 767px) {
+	.mobile-footer-copyright { display:block; }
+}
+.footer-copyright p, .mobile-footer-copyright p {
+	color: #fff;
+	font-size:1.2rem;
+	line-height:1.2;
+	font-family: 'Quattrocento Sans', sans-serif;
+	max-width: 700px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+@media screen and (min-width: 768px) {
+  .footer-panel { display: block; }
+}
+@media screen and (min-width: 1200px) {
+  .footer-panel { display: none; }
+}
+
+.fadein { position:relative; width:500px; height:332px; }
+.fadein img { position:absolute; left:0; top:0; }
+
+
+.centerpictures{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    height:312px;
+}
